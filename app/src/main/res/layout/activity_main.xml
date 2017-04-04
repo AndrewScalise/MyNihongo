@@ -5,9 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
     android:background="@color/white_background"
-    android:orientation="vertical"
-    tools:context="com.skuhleesi.mynihongo.MainActivity">
+    android:orientation="vertical">
 
     <!-- Numbers category -->
     <FrameLayout
@@ -56,6 +56,18 @@
             style="@style/CategoryStyle"
             android:text="@string/category_food"/>
     </FrameLayout>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:background="@color/btn_logut_bg"
+        android:text="@string/btn_logout"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp" />
 
 
 </LinearLayout>
