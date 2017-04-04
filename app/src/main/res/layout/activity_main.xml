@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background"
+    android:orientation="vertical"
+    tools:context="com.skuhleesi.mynihongo.MainActivity">
+
+    <!-- Numbers category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_numbers">
+
+        <TextView
+            android:id="@+id/numbers"
+            style="@style/CategoryStyle"
+            android:text="@string/category_numbers"/>
+    </FrameLayout>
+
+    <!-- Family category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+
+        <TextView
+            android:id="@+id/family"
+            style="@style/CategoryStyle"
+            android:text="@string/category_family"/>
+    </FrameLayout>
+
+    <!-- PlacesActivity category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_places">
+
+        <TextView
+            android:id="@+id/places"
+            style="@style/CategoryStyle"
+            android:text="@string/category_places"/>
+    </FrameLayout>
+
+    <!-- Food category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_food">
+
+        <TextView
+            android:id="@+id/food"
+            style="@style/CategoryStyle"
+            android:text="@string/category_food"/>
+    </FrameLayout>
+
+
+</LinearLayout>
+

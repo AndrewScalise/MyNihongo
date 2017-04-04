@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Name of the app -->
+    <string name="app_name">My Nihongo</string>
+
+    <!--Category for Numbers-->
+    <string name="category_numbers">Numbers</string>
+
+    <!--Category for Food-->
+    <string name="category_food">Food</string>
+
+    <!--Category for PlacesActivity-->
+    <string name="category_places">Places</string>
+
+    <!--Category for Family-->
+    <string name="category_family">Family</string>
+
+</resources>
